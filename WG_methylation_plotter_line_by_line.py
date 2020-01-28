@@ -3,7 +3,6 @@ import pandas as pd
 import sys,os
 import argparse
 from multiprocessing import Pool
-
 #usage python2.7 WG_methylation_plotter.py -binfile <binfile> -metfile <metfile see split metfile>
 
 parser = argparse.ArgumentParser(prog='Whole Genome DNA Methylation Plotter')
